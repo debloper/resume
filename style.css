@@ -12,8 +12,23 @@ body {
 	color: #777;
 	background: #EEE;
 	font: 14px Verdana, Geneva, sans-serif;
+	line-height: 150%;
 	box-shadow: 5px 10px 40px rgba(0,0,0,0.5);
 }
 
 /* - HEADER - */
-header { padding: 32px; }
+header { padding: 64px; }
+header #pdf {
+	color: #EEE;
+	float: right;
+	padding: 5px 10px;
+	background: #666;
+	border: 1px solid #333;
+	border-radius: 5px;
+	text-decoration: none;
+}
+header #pdf:hover, header #pdf:active {
+	color: #FFF;
+	background: #999;
+	border: 1px solid #666;
+}
