@@ -32,3 +32,7 @@ header #pdf:hover, header #pdf:active {
 	background: #999;
 	border: 1px solid #666;
 }
+header aside {
+	float: right;
+	text-align: right;
+}
