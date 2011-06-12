@@ -17,7 +17,7 @@ body {
 }
 
 /* - HEADER - */
-header { padding: 64px; }
+header { padding: 64px 64px 16px 64px; }
 header #pdf {
 	color: #EEE;
 	float: right;
@@ -36,3 +36,11 @@ header aside {
 	float: right;
 	text-align: right;
 }
+
+/* - ARTICLE - */
+article { padding: 16px 64px; }
+article h3 { text-align: right; text-decoration: underline; }
+article h4 { display: inline; }
+article h5 { display: inline; margin: 0; float: right; }
+article hr { color: #666; }
+article div { font-size: 12px; margin-bottom: 24px; }
