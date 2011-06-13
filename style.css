@@ -37,6 +37,7 @@ header aside {
 
 /* - ARTICLE - */
 article { padding: 16px 64px; }
+article section { margin-bottom: 64px; }
 article h3 { text-align: right; }
 article h4 { display: inline; }
 article h5 { display: inline; margin: 0; float: right; }
