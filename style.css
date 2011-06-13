@@ -41,4 +41,4 @@ article h3 { text-align: right; }
 article h4 { display: inline; }
 article h5 { display: inline; margin: 0; float: right; }
 article hr { color: #666; }
-article div { font-size: 12px; margin-bottom: 24px; }
+article p { font-size: 11px; margin-top: 0; margin-bottom: 24px; }
