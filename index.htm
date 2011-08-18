@@ -10,7 +10,7 @@
 body {
 	width: 60%;
 	margin: auto;
-	min-width: 640px;
+	min-width: 720px;
 	max-width: 960px;
 	color: #777;
 	background: #f8f8f8;
@@ -18,20 +18,14 @@ body {
 	line-height: 150%;
 	box-shadow: 5px 10px 40px rgba(0,0,0,0.5);
 }
+a { color: #06C; text-decoration: none; }
+a:hover { color: #39F; }
 
 /* - HEADER - */
 header { padding: 64px 64px 16px 64px; }
-header aside a {
-	color: #EEE;
-	float: right;
-	padding: 5px 10px;
-	background: #666;
-	border: 1px solid #333;
-	border-radius: 5px;
-	text-decoration: none;
-}
-header aside a:hover { color: #FFF; background: #69C; border: 1px solid #069; }
 header aside { float: right; text-align: right; }
+header aside a { color: #EEE; float: right; padding: 5px 10px; background: #666; border: 1px solid #333; border-radius: 5px; }
+header aside a:hover { color: #FFF; background: #69C; border: 1px solid #069; }
 
 /* - ARTICLE - */
 article { padding: 16px 64px; }
@@ -41,8 +35,7 @@ article h4 { display: inline; }
 article h5 { display: inline; margin: 0; float: right; }
 article hr { color: #666; }
 article p, ul { font-size: 11px; margin-top: 0; margin-bottom: 24px; }
-article p a { color: #06C; font-weight: bold; text-decoration: none; }
-article p a:hover { color: #39F; }
+article p a { font-weight: bold; }
 article p .readmore { float: right; }
 article .pagebreak { page-break-before: always; }
 
