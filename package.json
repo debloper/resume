@@ -1,0 +1,15 @@
+{
+  "name": "resume-timeline-svg",
+  "version": "0.0.1",
+  "description": "SVG.js implementation of professional timeline visualization",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debloper/resume"
+  },
+  "author": "Soumya Deb <debloper@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "svg.js": "^2.7.1"
+  }
+}
