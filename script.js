@@ -1,2 +1,2 @@
-import draw from '/aboriginal/index.js'
+import draw from '/emp/index.js'
 draw('canvas')
