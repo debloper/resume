@@ -1,25 +1,22 @@
 import * as utils from '../shared/utils.js'
+import * as config from '../shared/config.js'
 
-export default function draw(container) {
-
-  //// CONST ////
-  const canvasW = 240
-  const canvasH = 640
+export default function draw (container) {
 
   //// INIT ////
-  let svg = SVG(container).size(canvasW, canvasH)
+  let svg = SVG(container).size(config.canvasW, config.canvasH)
 
   //// SCALE ////
   let scale = svg.group().id("emp-scale")
 
   // quarter markers: 1 quarter is 15px, i.e. (1+14)px
   scale
-  .line(32, 10, 32, canvasH)
+  .line(32, 10, 32, config.canvasH)
   .stroke({ color: '#999', width: 8, dasharray: '1,14' })
 
-  // year markers: 1 year is 60px, i.e. (3+57)px
+  // year markers: 1 year is 60px, i.e. (1+59)px
   scale
-  .line(24, 40, 24, canvasH)
+  .line(24, 40, 24, config.canvasH)
   .stroke({ color: '#777', width: 16, dasharray: '1,59' })
 
   // alternate year legends
@@ -63,7 +60,7 @@ export default function draw(container) {
   utils.subtitle(termRH, 'Software Engineer\nopenshift.io Planner\n2016-2018', 220)
 
   // DoSelect
-  let termDO = terms.group().id("emp-term-DO")
+  let termDO = terms.group().id("emp-term-do")
 
   utils.timeline(termDO, [145, 105], '#2ecc71')
   utils.title(termDO, 'DoSelect', 95, '#2ecc71')
