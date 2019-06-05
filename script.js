@@ -1,2 +1,2 @@
-import draw from '/emp/index.js'
+import draw from './ent/index.js'
 draw('canvas')
