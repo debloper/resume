@@ -20,10 +20,8 @@ TamApNgWx3D2/CvkXwEGAOO9XQYhxDFzAAAAAElFTkSuQmCC" />
 <style type="text/css">
 /* - PRELIMS - */
 body {
-	width: 60%;
+	width: 800px;
 	margin: auto;
-	min-width: 800px;
-	max-width: 960px;
 	color: #777;
 	background: #f8f8f8;
 	font-family: Verdana, Geneva, sans-serif;
@@ -40,14 +38,19 @@ h5 { margin: 0; float: right; }
 /* - HEADER - */
 header { padding: 64px 64px 16px 64px; }
 header aside { float: right; text-align: right; }
-header aside a { color: #EEE; float: right; padding: 5px 10px; background: #666; border: 1px solid #333; border-radius: 5px; }
-header aside a:hover { color: #FFF; background: #69C; border: 1px solid #069; }
+header a[href='pdf/'] { color: #EEE; float: right; padding: 5px 10px; margin: 15px 0; background: #666; border: 1px solid #333; border-radius: 5px; }
+header a[href='pdf/']:hover { color: #FFF; background: #69C; border: 1px solid #069; }
 
 /* - ARTICLE - */
 article { padding: 16px 64px 0; }
 article section { margin-bottom: 64px; }
 article p { font-size: 13px; margin-top: 0; margin-bottom: 20px; }
 article p a { font-weight: bold; }
+
+/* - DATALIST - */
+dl { display: grid; font-size: 14px; }
+dt { grid-column-start: 1; }
+dd { grid-column-start: 2; }
 
 /* - FOOTER - */
 footer { padding: 0 64px 32px; font-size: 12px; }
@@ -57,111 +60,101 @@ footer { padding: 0 64px 32px; font-size: 12px; }
   body { color: #444; background: #fff; box-shadow: none; }
   a { color: inherit; }
   header { padding: 64px 48px 16px 64px; }
-  header aside a { visibility: hidden; }
+  header a[href='pdf/'] { visibility: hidden; }
   article { padding: 16px 48px 0 64px; }
   article section { margin-bottom: 48px; }
   footer { display: none; }
-  .pagebreak { page-break-before: always; }
+  .pagebreak { break-before: page; margin-top: 64px; }
 }
 </style>
 </head>
 <body>
   <header>
+    <a href="pdf/" target="_blank" title="Printer friendly version">Download PDF</a>
     <h1>Soumya Kanti Deb</h1>
     <section>
       <aside>
-        <a href="pdf/" target="_blank" title="Printer friendly version">Download PDF</a>
-        <br /><br />Native Tongue : <b>Bengali</b><br />Also fluent in : <b>English, Hindi</b>
+        Interested in <b>DevRel</b> roles<br />Open to <b>Travel and Relocate</b><br />Fluent in <b>Bengali, English, Hindi</b>
       </aside>
-      Kolkata/Pune, India<br />
+      Bangalore, India<br />
       Mobile : <b>+91 738 770 5588</b><br />
       Email : <a href="mailto:ping@debs.io" target="_blank" title="Contact Email">ping@debs.io</a><br />
-      Website : <a href="http://debs.io" target="_blank" title="Personal Website">http://debs.io</a><br />
     </section>
   </header>
   <article>
     <section>
-      <h3>Professional Experience</h3><hr />
-      <h4>Red Hat Software Services Pvt. Ltd. - Pune</h4>
-      <h5>[ Lead Frontend and UX Developer ]</h5>
-      <p><b>August, 2012 - Present</b> &mdash; Leading the frontend development of an internal R&amp;D devtool-project.</p>
-      <h4>NexVend Sdn. Bhd. - Kuala Lumpur</h4>
-      <h5>[ Co-founder, Director and CTO ]</h5>
-      <p><b>May, 2012 - Present</b> &mdash; Member of the Board of Directors, Chief Technical Officer, Leader of IT-Operations, Principal developer, architect &amp; super-reviewer of product designs.</p>
-      <h4>MQuotient Solutions Ltd. - Pune</h4>
+      <h3>Primary Experiences</h3><hr />
+      <h4>DoSelect - Bangalore</h4>
+      <h5>[ Senior Software Engineer, Team Lead ]</h5>
+      <p><b>June, 2018 - December, 2018</b> &mdash; Full-stack developer & team lead; performance, optimization & renovation.</p>
+      <h4>Red Hat India - Pune, Bangalore</h4>
+      <h5>[ Software Engineer, Technical PM ]</h5>
+      <p><b>August, 2012 - May, 2018</b> &mdash; Frontend lead of developer tools' R&amp;D. Internal analytics tools, networked storage manager web-interface, mentoring interns etc. Frontend developer at openshift.io "Planner".</p>
+      <h4>MQuotient Solutions - Pune</h4>
       <h5>[ Lead Frontend Developer ]</h5>
-      <p><b>November, 2011 - May, 2012</b> &mdash; Lead frontend developer of the smart enterprise solutions: <i>Boxcite</i> (the Lead Management System) &amp; <i>Glyfix</i>'s (the OCR with AI).</p>
-      <h4>Olyvious Net Trading Pvt. Ltd. - Siliguri</h4>
-      <h5>[ Lead Web Developer ]</h5>
-      <p><b>May, 2011 - July, 2011</b> &mdash; Principal Webmaster of 5+ high-traffic subsidiary e-commerce sites. Also served as the system-administrator &amp; technical-recruiter for the company.</p>
-      <h4>Nexshore Technologies Pvt. Ltd. - Mysore</h4>
+      <p><b>November, 2011 - May, 2012</b> &mdash; Lead frontend developer of flagship enterprise solutions: <i>GlyphX</i> &amp; <i>Boxcite</i>.</p>
+      <h4>Olyvious Net Trading - Siliguri</h4>
+      <h5>[ Principle Webmaster ]</h5>
+      <p><b>May, 2011 - July, 2011</b> &mdash; DevOp of 5 subsidiary e-commerce sites; technical recruitment &amp; development team lead.</p>
+      <h4>Nexshore Technologies - Mysore</h4>
       <h5>[ Software Engineer ]</h5>
-      <p><b>November, 2010 - February, 2011</b> &mdash; Developed the software interface for Transcend's Media Streaming Device, codenamed &ndash; RippleBox (now, StoreJet), with focus on codec optimization, network-stream/queue management and media-player's UI design.</p>
-      <h4>9 Dot 9 Media Pvt. Ltd. - Noida</h4>
+      <p><b>November, 2010 - February, 2011</b> &mdash; Implemented ffmpeg adapters in .NET C# to support 80+ multimedia formats for Transcend's multimedia streaming device, codenamed "RippleBox". Designed frontend UX for the phone app.</p>
+      <h4>9 Dot 9 Media - Noida</h4>
       <h5>[ Junior Writer ]</h5>
-      <p><b>March, 2010 - November, 2010</b> &mdash; Produced some of the highest rated featured-articles about Internet &amp; web-technology, multimedia, tech-politics, smarter-mobility etc. Worked as a full-time employee until April 2010 then switched as a consulting freelancer.</p>
+      <p><b>March, 2010 - November, 2010</b> &mdash; Technical analyst & featured articles writer for ThinkDigit.</p>
     </section>
-    <br class="pagebreak" />
+    <section>
+      <h3>Secondary Experiences</h3><hr />
+      <h4>Applait</h4>
+      <h5>[ Co-founder, Director & CEO ]</h5>
+      <p><b>2014 - 2018</b> &mdash; An unconventional startup, focused on the web platform, RTC & technological singularity.</p>
+      <h4>NexVend</h4>
+      <h5>[ Co-founder, Director & CTO ]</h5>
+      <p><b>2012 - 2016</b> &mdash; A tech consulting startup, offering web design, development, deployment & management services.</p>
+      <h4>Mozilla</h4>
+      <h5>[ Volunteer, Speaker, Community Leader ]</h5>
+      <p><b>2010 - 2016</b> &mdash; <a href="https://bugzilla.mozilla.org/buglist.cgi?list_id=6457116&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&classification=Client%20Software&emailtype1=exact&query_format=advanced&emailassigned_to1=1&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=READY&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&email1=debloper%40gmail.com&product=Firefox" target="_blank">Developer Contributor</a>  turned <a href="https://reps.mozilla.org/u/Debloper/" target="_blank">Community Builder</a> turned <a href="https://youtu.be/5wvDrxn-xVU">Tech Speaker</a>, and a few other things.</p>
+    </section>
+    <section class="pagebreak">
+      <h3>Professional Skills</h3><hr />
+      <h4>Programming</h4>
+      <p><b>Polyglot programmer</b>. 10+ years of experience with JavaScript. Well versed in Python, PHP, Ruby etc.</p>
+      <h4>Designing</h4>
+      <p><b>Autodidact UX minimalist</b>. Proficient in both visual &amp; programmatic design tools for print/screen publish media.</p>
+      <h4>Speaking</h4>
+      <p><b>Seasoned public speaker</b>. 1000+hrs of experience in presenting talks & facilitating workshops across the globe.</p>
+      <h4>Mentoring</h4>
+      <p>For some reason, my peers believe I can help them grow &amp; for some reason, I enjoy pretending my best that I can.</p>
+      <h4>DevOps</h4>
+      <p>System assembly &amp; administration. From baremetal to k8s server provisioning, automation &amp; management.</p>
+      <h4>Fine & performing arts</h4>
+      <p>Sketch, paint &amp; sculpt in both traditional &amp; digital media. End to end multimedia &amp; VFX production pipeline. Ex-stage-performer &amp; semi-pro photographer. Co-produced indie sci-fi VFX films & animated shorts.</p>
+    </section>
     <section>
       <h3>Academic Details</h3><hr />
-      <h4>Post-Graduation <small>[2010]</small></h4>
-      <h5>Master of Computer Applications</h5>
-      <p>Completed my Masters (MCA) in the year 2010 from Siliguri Institute of Technology (SIT) under West Bengal University of Technology (WBUT) with Degree-GPA of 8.4/10.</p>
-      <h4>Multimedia Diploma <small>[2009]</small></h4>
-      <h5>Advanced Diploma in 3D Animation</h5>
-      <p>Certified by the University of Cambridge (UK) &amp; the Maya Academy of Advanced Cinematics (MAAC) in 2009, on completion of the 2-years graduate diploma in Multimedia, Animation and  Film-VFX (AD3D+).</p>
-      <h4>Graduation <small>[2007]</small></h4>
-      <h5>Pure Science with Honors in Physics</h5>
-      <p>Physics Honors graduate from Balurghat College, under the University of North Bengal (NBU) in 2007.</p>
+      <dl>
+        <dt>Post-Graduation [2010]</dt>
+        <dd>Master of Computer Applications, from WBUT</dd>
+        <dt>Certification [2009]</dt>
+        <dd>Advanced Diploma in 3D Animation+, Cambridge University</dd>
+        <dt>Graduation [2007]</dt>
+        <dd>B.Sc. with Honors in Physics, North Bengal University</dd>
+      </dl>
     </section>
     <section>
-      <h3>Skills and Competence</h3><hr />
-      <h4>Interface Design and Layout</h4>
-      <p>Proficient in designing application-interfaces with HTML/CSS, XUL/XBL, Nokia Qt, Adobe Flash/Flex and Windows Presentation Foundation (WPF). Also skilled in Adobe Photoshop, Illustrator, InDesign, GIMP, InkScape etc. for print/screen publish media.</p>
-      <h4>Web Technology and Frameworks</h4>
-      <p>Efficient using HTML5-APIs, AJAX/JSONP, CSS-Preprocessors, countless JS libs/frameworks et. al. Fanatic about writing standard-compliant, performance-optimized, bandwidth-friendly markups. Capable of making/managing high-traffic websites on Drupal, Joomla!, Ruby on Rails, Django and MediaWiki. Can throw libraries/dependencies off the window &amp; hand-code everything from scratch, if required.</p>
-      <h4></h4>
-      <h4> System Support and Troubleshooting</h4>
-      <p>System Administration on GNU/Linux, Mac OS X &amp; Windows, Hardware Assembling, Software/Hardware Troubleshooting, Network setup &amp; configuration at small/large scale, Network Security &amp; Firewalls. Have experience setting-up &amp; administrating private Git, MediaWiki, Bugzilla etc. servers.</p>
-      <h4></h4>
-      <h4>Software Development and Engineering</h4>
-      <p>JavaScript ninja &mdash; skilled programmer of C/C++ and PHP. Have experience working on Python, Ruby and .NET. Can handle any modern programming language with moderate efficiency. Preferred revision control systems are Git &amp; Mercurial. Can work on both Object-Relational (MySQL, SQLite, PostgreSQL etc.) and Document-Oriented (CouchDB, MongoDB etc.) database systems.</p>
-      <h4>Traditional/Digital Art-forms and Multimedia</h4>
-      <p>Can Sketch, Paint, Sculpt in traditional, as well as in digital media. Long time drama/theatrical Stage-Performer and Semi-pro Photographer. In Production Media, can work on Conceptualizing, Visualizing, Planning, Filming, Compositing, Rendering, Editing and Encoding. Efficient in Codecs &amp; Compressions; good understanding of MoCap &amp; 3D Filming. Have experience co-producing indie-VFX feature film.</p>
-    </section>
-    <br class="pagebreak" />
-    <section>
-      <h3>Extracurricular Engagements</h3><hr />
-      <h4>Spreading the Mozilla Manifesto</h4>
-      <h5>(to make the web a better place)</h5>
-      <p>Mozilla Reps' <a href="https://reps.mozilla.org/u/Debloper/" title="Mozilla Reps Profile" target="_blank">Council Member</a>, Contributor to <a href="https://bugzilla.mozilla.org/buglist.cgi?list_id=6457116&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&classification=Client%20Software&emailtype1=exact&query_format=advanced&emailassigned_to1=1&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=READY&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&email1=debloper%40gmail.com&product=Firefox" title="Bugs I've been working on..." target="_blank">Mozilla Central</a>, Firefox <a href="https://addons.mozilla.org/en-US/firefox/user/5600401/" target="_blank" title="AMO Profile">AddOn Developer</a>, Webmaker <a href="https://webmaker.org/teach/" title="Teach the web" target="_blank">Super Mentor</a>, Mozilla Community IT SysAdmin, Leader of Mozilla India and contributor of various projects &amp; planning, such as <a href="https://wiki.mozilla.org/Grow" title="Grow Mozilla" target="_blank">Grow Mozilla</a>, <a href="https://wiki.mozilla.org/NeMo" title="News Mozilla" target="_blank">News Mozilla</a>, <a href="http://debloper.github.com/privacy.js" title="The Privacy Icon - Drumbeat" target="_blank">Privacy Icon</a> project etc.</p>
-      <h4>Other Open Source Projects</h4>
-      <h5>(Non-Profit/FLOSS Contributions)</h5>
-      <p>Senior <a href="http://en.wikipedia.org/wiki/User:Deblopper" title="Wikipedia - User Deblopper" target="_blank">Wikipedia Editor</a> and the Acting Leader of <a href="http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Software/Members" title="Acting Leader : WikiProject Software" target="_blank">WikiProject Software</a>. Contributor of Wikipedia-Mobile app for Android/iOS. Fedora Project <a href="https://admin.fedoraproject.org/accounts/user/view/debloper" title="Fedora Contributor Profile" target="_blank">member</a> &amp; supporter of VideoLAN, KDE, Kernel, Diaspora projects etc.</p>
-      <h4>Public Speaking/Writing</h4>
-      <h5>(Talks, Publications &amp; Evangelism)</h5>
-      <p>Occationally I give talks, take workshops on open web technologies, Firefox addon developments etc. Most of my talk slides are made with HTML5/CSS3/JS, and are <a href="http://code.debs.io/talks" title="Online Talk Slides" target="_blank">available online</a>. Apart from <a href="http://blog.debs.io/" title="Blogging meta-landing page" target="_blank">personal blogging</a>, my professional <a href="http://www.thinkdigit.com/author/Soumya_Deb_65.html" title="My ThinkDigit Archive" target="_blank">writeups for ThinkDigit</a> are also archived.</p>
-      <h4>Founding &quot;Samsaptak&quot;</h4>
-      <h5>(Previously, &quot;The Team of Tomorrow&quot;)</h5>
-      <p>A <a href="http://www.samsaptak.org/" title="Samsaptak - Head Quarter" target="_blank">multimedia-liberation foundation</a> in the making; dedicated to revolutionize the open-media movement. Produced &quot;<b><a href="http://khurrandrome.samsaptak.org/" title="Khurrandrome - The Film" target="_blank">Khurrandrome</a></b>&quot;, our first SciFi VFX open-movie in 2010 (awarded at North Bengal film festival).</p>
-    </section>
-    <section>
-      <h3>Interests and Hobbies</h3><hr />
+      <h3>Extracurricular Interests</h3><hr />
+      <h4>Gaming</h4>
+      <p>Previously fond of single player action/adventure/platformer games. Now mostly into competitive multiplayers.</p>
       <h4>Studying</h4>
-      <p>I like to study a varied spectrum of subjects, ranging from Philosophy, Psychology, Politics, Medical-Biology, Brain and Cognition to Constructed Languages, Religions, Mythology, Comics, and rarely, Novels et. al.</p>
+      <p>I study a varied spectrum of subjects, consisting Philosophy, Psychology, Politics, Religions, Mythology et. al.</p>
       <h4>Photography</h4>
-      <p>I mostly do macro-shots with controlled depth of field, color-tuned longshot landscapes, panorama, spontaneous and still life. Have interests in experimental photography; High-Speed/Long-Exposure/Time-Lapse, Infrared/Ultraviolet, HDR are my favorites. [<a href="http://www.flickr.com/photos/im-phreak/collections/72157633380584074/" title="Collection: Showcase" target="_blank">Flickr</a>]
-      <h4>Computer Gaming</h4>
-      <p>Action/adventure/platforming, stealth/shooter &amp; arcade-racing are my favorite genres of video games. I'm a fan of Prince of Persia, Need for Speed, Splinter Cell, Call of Duty series and all the games developed by Crytek GmbH.</p>
-      <h4>Miscellaneous Whimsy</h4>
-      <p>I have built, managed and directed an amateur theater group that successfully performes till date; also a cricket team &amp; a music band, which are now dissolved. I was renowned for my soft-skills &amp; extracurricular-activities, and am known as the tech-guru among the circles. I am a <a href="http://en.wikipedia.org/wiki/Critical_thinking" title="Critical Thinking" target="_blank">Critical Thinker</a>, and I critique my every moves &amp; reform accordingly.</p>
-    </section>
+      <p>Mostly into experimental photography: high-speed/time-lapse, infrared/ultraviolet, abstract/minimalism. [<a href="http://www.flickr.com/photos/im-phreak/collections/72157633380584074/" title="Collection: Showcase" target="_blank">Flickr</a>]
+      <h4>Miscellaneous</h4>
+      <p>I like building teams; amateur theater group, cricket team, even a music band. I like walking across cities that I visit - sometimes overnight. I like ardent debates, sick wordplays, pulling all nighters, and quite a lot of other stuff.</p>    </section>
   </article>
   <footer>
-    <a href="https://plus.google.com/112891629927815203476?rel=author" style="display: none;">+</a>
     <hr />
-    <p>This standalone HTML file comes without any external dependancies. It's designed &amp; laid out completely with HTML5 elements (TABLE-less layout, DIV-less semantics), optimized to be printed on A4 pages, maintained with version control system for incremental updates. If you find mistakes, want to propose upgrades or think that something should be added/discarded, I'd be eager to know.</p>
-    <p>The licensing of this resume comes under <a href="http://www.mozilla.org/MPL/" title="Mozilla Public License, version 2.0" target="_blank">MPL 2.0</a> and it is presently in <a href="https://github.com/Deblopper/resume/zipball/v5.00" title="Source Code" target="_blank">version 5.00</a>, as of 2013/05/04.</p>
+    <p>This <a href="https://github.com/debloper/resume" title="Code Repository" target="_blank">resume</a> is available under under <a href="https://mozilla.org/MPL/2.0/" title="Mozilla Public License, version 2.0" target="_blank">MPL 2.0</a> and it is presently in <a href="https://github.com/debloper/resume/releases/tag/v6.00" title="Source Code Snapshot" target="_blank">version 6.00</a>.</p>
   </footer>
 </body>
 </html>
