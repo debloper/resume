@@ -60,21 +60,20 @@ footer { padding: 0 64px 32px; font-size: 12px; }
   body { color: #444; background: #fff; box-shadow: none; }
   a { color: inherit; }
   header { padding: 64px 48px 16px 64px; }
-  header a[href='pdf/'] { visibility: hidden; }
   article { padding: 16px 48px 0 64px; }
   article section { margin-bottom: 48px; }
-  footer { display: none; }
+  .noprint { display: none; }
   .pagebreak { break-before: page; margin-top: 64px; }
 }
 </style>
 </head>
 <body>
   <header>
-    <a href="pdf/" target="_blank" title="Printer friendly version">Download PDF</a>
+    <a href="pdf/" class="noprint" target="_blank" title="Printer friendly version">Download PDF</a>
     <h1>Soumya Kanti Deb</h1>
     <section>
       <aside>
-        Interested in <b>DevRel</b> roles<br />Open to <b>Travel and Relocate</b><br />Fluent in <b>Bengali, English, Hindi</b>
+        Open to <b>Travel and Relocate</b><br />Fluent in <b>Bengali, English, Hindi</b><br />Pursuing <b>DevRel, Engg. Management</b>
       </aside>
       Bangalore, India<br />
       Mobile : <b>+91 738 770 5588</b><br />
@@ -124,7 +123,7 @@ footer { padding: 0 64px 32px; font-size: 12px; }
       <h4>Speaking</h4>
       <p><b>Seasoned public speaker</b>. 1000+hrs of experience in presenting talks & facilitating workshops across the globe.</p>
       <h4>Mentoring</h4>
-      <p>For some reason, my peers believe I can help them grow &amp; for some reason, I enjoy pretending my best that I can.</p>
+      <p>For some reason, my peers believe I can help them grow, &amp; for some reason, I enjoy pretending that I can.</p>
       <h4>DevOps</h4>
       <p>System assembly &amp; administration. From baremetal to k8s server provisioning, automation &amp; management.</p>
       <h4>Fine & performing arts</h4>
@@ -148,11 +147,11 @@ footer { padding: 0 64px 32px; font-size: 12px; }
       <h4>Studying</h4>
       <p>I study a varied spectrum of subjects, consisting Philosophy, Psychology, Politics, Religions, Mythology et. al.</p>
       <h4>Photography</h4>
-      <p>Mostly into experimental photography: high-speed/time-lapse, infrared/ultraviolet, abstract/minimalism. [<a href="http://www.flickr.com/photos/im-phreak/collections/72157633380584074/" title="Collection: Showcase" target="_blank">Flickr</a>]
+      <p>Mostly into experimental photography: high-speed/time-lapse, infrared/ultraviolet, abstract/minimalism.<span class="noprint"> [<a href="http://www.flickr.com/photos/im-phreak/collections/72157633380584074/" title="Collection: Showcase" target="_blank">Flickr</a>]</span>
       <h4>Miscellaneous</h4>
       <p>I like building teams; amateur theater group, cricket team, even a music band. I like walking across cities that I visit - sometimes overnight. I like ardent debates, sick wordplays, pulling all nighters, and quite a lot of other stuff.</p>    </section>
   </article>
-  <footer>
+  <footer class="noprint">
     <hr />
     <p>This <a href="https://github.com/debloper/resume" title="Code Repository" target="_blank">resume</a> is available under under <a href="https://mozilla.org/MPL/2.0/" title="Mozilla Public License, version 2.0" target="_blank">MPL 2.0</a> and it is presently in <a href="https://github.com/debloper/resume/releases/tag/v6.00" title="Source Code Snapshot" target="_blank">version 6.00</a>.</p>
   </footer>
