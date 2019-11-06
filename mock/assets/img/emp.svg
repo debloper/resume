@@ -1,0 +1,72 @@
+<svg width="240" height="640" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
+    <defs />
+    <g id="emp-scale">
+        <line x1="32" y1="10" x2="32" y2="640" stroke-dasharray="1,14" stroke="#999999" stroke-width="8"/>
+        <line x1="24" y1="40" x2="24" y2="640" stroke-dasharray="1,59" stroke="#777777" stroke-width="16"/>
+        <text font-family="Helvetica, Arial, sans-serif" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.5468750000000036,33.15625)" fill="#444444" x="-505" y="-6.796875">
+            <tspan dy="20.8" x="-505">2012</tspan>
+        </text>
+        <text font-family="Helvetica, Arial, sans-serif" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.5468750000000036,33.15625)" fill="#444444" x="-385" y="-6.796875">
+            <tspan dy="20.8" x="-385">2014</tspan>
+        </text>
+        <text font-family="Helvetica, Arial, sans-serif" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.5468750000000036,33.15625)" fill="#444444" x="-265" y="-6.796875">
+            <tspan dy="20.8" x="-265">2016</tspan>
+        </text>
+        <text font-family="Helvetica, Arial, sans-serif" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.5468750000000036,33.15625)" fill="#444444" x="-145" y="-6.796875">
+            <tspan dy="20.8" x="-145">2018</tspan>
+        </text>
+        <text font-family="Helvetica, Arial, sans-serif" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.5468750000000036,33.15625)" fill="#444444" x="-25" y="-6.796875">
+            <tspan dy="20.8" x="-25">2020</tspan>
+        </text>
+    </g>
+    <g id="emp-terms">
+        <g id="emp-term-long-ago">
+            <line x1="36" y1="625" x2="36" y2="550" stroke="#999999" stroke-width="4"/>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="585" fill="#333333" text-anchor="start" anchor="start">
+                <tspan dy="20.8" x="60">ThinkDigit (9dot9)</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="605" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Junior Writer</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="545" fill="#333333" text-anchor="start" anchor="start">
+                <tspan dy="20.8" x="60">Nexshore, Olyvious</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="565" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Software Engineer</tspan>
+            </text>
+        </g>
+        <g id="emp-term-mq">
+            <line x1="36" y1="535" x2="36" y2="505" stroke="#e97770" stroke-width="4"/>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="510" fill="#333333" text-anchor="start" anchor="start">
+                <tspan fill="#e97770">mq</tspan><tspan id="SvgjsTspan1036">uotient</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="510" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Software Engineer</tspan><tspan dy="15.600000000000001" x="60">Frontend Lead</tspan>
+            </text>
+        </g>
+        <g id="emp-term-rh">
+            <line x1="36" y1="490" x2="36" y2="145" stroke="#cc0000" stroke-width="4"/>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="180" fill="#ee2737" text-anchor="start" anchor="start">
+                <tspan dy="20.8" x="60">Red Hat</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="400" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Software Engineer</tspan><tspan dy="15.600000000000001" x="60">Source Browser</tspan><tspan dy="15.600000000000001" x="60">2012-2014</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="310" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Technical Product Manager</tspan><tspan dy="15.600000000000001" x="60">Internal Tools</tspan><tspan dy="15.600000000000001" x="60">2014-2016</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="220" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Software Engineer</tspan><tspan dy="15.600000000000001" x="60">openshift.io Planner</tspan><tspan dy="15.600000000000001" x="60">2016-2018</tspan>
+            </text>
+        </g>
+        <g id="emp-term-do">
+            <line x1="36" y1="145" x2="36" y2="105" stroke="#2ecc71" stroke-width="4"/>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="95" fill="#2ecc71" text-anchor="start" anchor="start">
+                <tspan dy="20.8" x="60">DoSelect</tspan>
+            </text>
+            <text font-family="Helvetica, Arial, sans-serif" x="60" y="115" font-size="12" fill="#666666" text-anchor="start" size="12" anchor="start">
+                <tspan dy="15.600000000000001" x="60">Senior Software Engineer</tspan><tspan dy="15.600000000000001" x="60">Full Stack</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
