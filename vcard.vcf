@@ -1,8 +1,8 @@
 BEGIN:VCARD
 VERSION:4.0
-N:Deb;Soumya;Kanti;Mr.;
-FN:Soumya Kanti Deb
+N:Deb;Soumya;;Mr.;
+FN:Soumya Deb
 TEL;TYPE=Personal;VALUE=uri:tel:+91-738-770-5588
 EMAIL:ping@debs.io
-REV:20191021T000000Z
+REV:20210901T000000Z
 END:VCARD
